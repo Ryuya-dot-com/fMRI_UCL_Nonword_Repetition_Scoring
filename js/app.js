@@ -217,6 +217,8 @@ const App = (() => {
 
       document.getElementById('back-to-setup').addEventListener('click', () => {
         ScoringUI.saveCurrentScore();
+        State.save();
+        _loadGeneration += 1;
         WaveformViewer.destroy();
         _audioKey = null;
         renderSetupScreen();
@@ -304,6 +306,7 @@ const App = (() => {
       return;
     }
 
+    _audioKey = null;
     try {
       await WaveformViewer.loadAudio(audioUrl);
       if (generation !== _loadGeneration) return;
