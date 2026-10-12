@@ -1,0 +1,8 @@
+{
+  "wavesurfer.min.js": "https://unpkg.com/wavesurfer.js@7.12.12/dist/wavesurfer.min.js",
+  "minimap.min.js": "https://unpkg.com/wavesurfer.js@7.12.12/dist/plugins/minimap.min.js",
+  "timeline.min.js": "https://unpkg.com/wavesurfer.js@7.12.12/dist/plugins/timeline.min.js",
+  "xlsx.full.min.js": "https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js",
+  "wavesurfer.LICENSE": "https://unpkg.com/wavesurfer.js@7.12.12/LICENSE",
+  "sheetjs.LICENSE": "https://cdn.sheetjs.com/xlsx-0.20.1/package/LICENSE"
+}

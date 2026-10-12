@@ -1,0 +1,1907 @@
+{
+  "version": "fmri-ucl-1",
+  "studyId": "fmri_ucl_nwr",
+  "scoredSlides": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "skipSlides": [
+    3,
+    5,
+    7,
+    9,
+    11
+  ],
+  "scoring": {
+    "accuracyValues": [
+      0,
+      1
+    ],
+    "partialCredit": false,
+    "rule": "Completely correct response = 1, otherwise 0"
+  },
+  "trialTemplate": [
+    {
+      "index": 1,
+      "slide": 1,
+      "trial": 1,
+      "task": "one_word",
+      "item": "にはえ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 1
+    },
+    {
+      "index": 2,
+      "slide": 2,
+      "trial": 2,
+      "task": "one_word",
+      "item": "かてせ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 1
+    },
+    {
+      "index": 3,
+      "slide": 2,
+      "trial": 3,
+      "task": "one_word",
+      "item": "もかね",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 2
+    },
+    {
+      "index": 4,
+      "slide": 4,
+      "trial": 4,
+      "task": "one_word",
+      "item": "ほとき",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 1
+    },
+    {
+      "index": 5,
+      "slide": 4,
+      "trial": 5,
+      "task": "one_word",
+      "item": "つれむ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 2
+    },
+    {
+      "index": 6,
+      "slide": 4,
+      "trial": 6,
+      "task": "one_word",
+      "item": "こねい",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 3
+    },
+    {
+      "index": 7,
+      "slide": 4,
+      "trial": 7,
+      "task": "one_word",
+      "item": "しつら",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 4
+    },
+    {
+      "index": 8,
+      "slide": 4,
+      "trial": 8,
+      "task": "one_word",
+      "item": "すけね",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 5
+    },
+    {
+      "index": 9,
+      "slide": 6,
+      "trial": 9,
+      "task": "two_word",
+      "item": "てあふ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 1
+    },
+    {
+      "index": 10,
+      "slide": 6,
+      "trial": 9,
+      "task": "two_word",
+      "item": "へてす",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 2
+    },
+    {
+      "index": 11,
+      "slide": 6,
+      "trial": 10,
+      "task": "two_word",
+      "item": "むみほ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 3
+    },
+    {
+      "index": 12,
+      "slide": 6,
+      "trial": 10,
+      "task": "two_word",
+      "item": "こへに",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 4
+    },
+    {
+      "index": 13,
+      "slide": 6,
+      "trial": 11,
+      "task": "two_word",
+      "item": "ぬたよ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 5
+    },
+    {
+      "index": 14,
+      "slide": 6,
+      "trial": 11,
+      "task": "two_word",
+      "item": "られの",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 6
+    },
+    {
+      "index": 15,
+      "slide": 6,
+      "trial": 12,
+      "task": "two_word",
+      "item": "そてせ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 7
+    },
+    {
+      "index": 16,
+      "slide": 6,
+      "trial": 12,
+      "task": "two_word",
+      "item": "ぬほえ",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 8
+    },
+    {
+      "index": 17,
+      "slide": 6,
+      "trial": 13,
+      "task": "two_word",
+      "item": "まそあ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 9
+    },
+    {
+      "index": 18,
+      "slide": 6,
+      "trial": 13,
+      "task": "two_word",
+      "item": "そあひ",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 10
+    },
+    {
+      "index": 19,
+      "slide": 8,
+      "trial": 14,
+      "task": "three_word",
+      "item": "わえふ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 1
+    },
+    {
+      "index": 20,
+      "slide": 8,
+      "trial": 14,
+      "task": "three_word",
+      "item": "ろこよ",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 2
+    },
+    {
+      "index": 21,
+      "slide": 8,
+      "trial": 14,
+      "task": "three_word",
+      "item": "もらま",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 3
+    },
+    {
+      "index": 22,
+      "slide": 8,
+      "trial": 15,
+      "task": "three_word",
+      "item": "つふぬ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 4
+    },
+    {
+      "index": 23,
+      "slide": 8,
+      "trial": 15,
+      "task": "three_word",
+      "item": "ほせね",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 5
+    },
+    {
+      "index": 24,
+      "slide": 8,
+      "trial": 15,
+      "task": "three_word",
+      "item": "られと",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 6
+    },
+    {
+      "index": 25,
+      "slide": 8,
+      "trial": 16,
+      "task": "three_word",
+      "item": "れきみ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 7
+    },
+    {
+      "index": 26,
+      "slide": 8,
+      "trial": 16,
+      "task": "three_word",
+      "item": "ふよま",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 8
+    },
+    {
+      "index": 27,
+      "slide": 8,
+      "trial": 16,
+      "task": "three_word",
+      "item": "れちう",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 9
+    },
+    {
+      "index": 28,
+      "slide": 8,
+      "trial": 17,
+      "task": "three_word",
+      "item": "れふか",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 10
+    },
+    {
+      "index": 29,
+      "slide": 8,
+      "trial": 17,
+      "task": "three_word",
+      "item": "なてす",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 11
+    },
+    {
+      "index": 30,
+      "slide": 8,
+      "trial": 17,
+      "task": "three_word",
+      "item": "せほけ",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 12
+    },
+    {
+      "index": 31,
+      "slide": 8,
+      "trial": 18,
+      "task": "three_word",
+      "item": "みけへ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 13
+    },
+    {
+      "index": 32,
+      "slide": 8,
+      "trial": 18,
+      "task": "three_word",
+      "item": "るはい",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 14
+    },
+    {
+      "index": 33,
+      "slide": 8,
+      "trial": 18,
+      "task": "three_word",
+      "item": "てなせ",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 15
+    },
+    {
+      "index": 34,
+      "slide": 10,
+      "trial": 19,
+      "task": "four_word",
+      "item": "てさや",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 1
+    },
+    {
+      "index": 35,
+      "slide": 10,
+      "trial": 19,
+      "task": "four_word",
+      "item": "にみか",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 2
+    },
+    {
+      "index": 36,
+      "slide": 10,
+      "trial": 19,
+      "task": "four_word",
+      "item": "けかゆ",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 3
+    },
+    {
+      "index": 37,
+      "slide": 10,
+      "trial": 19,
+      "task": "four_word",
+      "item": "めてか",
+      "itemOrderInTrial": 4,
+      "itemOrderInSlide": 4
+    },
+    {
+      "index": 38,
+      "slide": 10,
+      "trial": 20,
+      "task": "four_word",
+      "item": "しえめ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 5
+    },
+    {
+      "index": 39,
+      "slide": 10,
+      "trial": 20,
+      "task": "four_word",
+      "item": "よろつ",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 6
+    },
+    {
+      "index": 40,
+      "slide": 10,
+      "trial": 20,
+      "task": "four_word",
+      "item": "のへえ",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 7
+    },
+    {
+      "index": 41,
+      "slide": 10,
+      "trial": 20,
+      "task": "four_word",
+      "item": "まにむ",
+      "itemOrderInTrial": 4,
+      "itemOrderInSlide": 8
+    },
+    {
+      "index": 42,
+      "slide": 10,
+      "trial": 21,
+      "task": "four_word",
+      "item": "るひに",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 9
+    },
+    {
+      "index": 43,
+      "slide": 10,
+      "trial": 21,
+      "task": "four_word",
+      "item": "らあろ",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 10
+    },
+    {
+      "index": 44,
+      "slide": 10,
+      "trial": 21,
+      "task": "four_word",
+      "item": "はひに",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 11
+    },
+    {
+      "index": 45,
+      "slide": 10,
+      "trial": 21,
+      "task": "four_word",
+      "item": "まへた",
+      "itemOrderInTrial": 4,
+      "itemOrderInSlide": 12
+    },
+    {
+      "index": 46,
+      "slide": 10,
+      "trial": 22,
+      "task": "four_word",
+      "item": "すちと",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 13
+    },
+    {
+      "index": 47,
+      "slide": 10,
+      "trial": 22,
+      "task": "four_word",
+      "item": "せむて",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 14
+    },
+    {
+      "index": 48,
+      "slide": 10,
+      "trial": 22,
+      "task": "four_word",
+      "item": "はきと",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 15
+    },
+    {
+      "index": 49,
+      "slide": 10,
+      "trial": 22,
+      "task": "four_word",
+      "item": "かれめ",
+      "itemOrderInTrial": 4,
+      "itemOrderInSlide": 16
+    },
+    {
+      "index": 50,
+      "slide": 10,
+      "trial": 23,
+      "task": "four_word",
+      "item": "むもめ",
+      "itemOrderInTrial": 1,
+      "itemOrderInSlide": 17
+    },
+    {
+      "index": 51,
+      "slide": 10,
+      "trial": 23,
+      "task": "four_word",
+      "item": "ゆにや",
+      "itemOrderInTrial": 2,
+      "itemOrderInSlide": 18
+    },
+    {
+      "index": 52,
+      "slide": 10,
+      "trial": 23,
+      "task": "four_word",
+      "item": "ぬむの",
+      "itemOrderInTrial": 3,
+      "itemOrderInSlide": 19
+    },
+    {
+      "index": 53,
+      "slide": 10,
+      "trial": 23,
+      "task": "four_word",
+      "item": "にけえ",
+      "itemOrderInTrial": 4,
+      "itemOrderInSlide": 20
+    }
+  ],
+  "datasets": [
+    {
+      "id": "fmri_ucl_nwr",
+      "label": "fMRI UCL",
+      "timing": "nwr",
+      "audioRoot": "data/audio",
+      "participants": [
+        {
+          "id": "R01",
+          "sessionDir": "R01",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R01/R01_full.flac",
+            "2": "data/audio/R01/R01_full.flac",
+            "4": "data/audio/R01/R01_full.flac",
+            "6": "data/audio/R01/R01_full.flac",
+            "8": "data/audio/R01/R01_full.flac",
+            "10": "data/audio/R01/R01_full.flac"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B02",
+          "sessionDir": "B02",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B02/B02_full.mp3",
+            "2": "data/audio/B02/B02_full.mp3",
+            "4": "data/audio/B02/B02_full.mp3",
+            "6": "data/audio/B02/B02_full.mp3",
+            "8": "data/audio/B02/B02_full.mp3",
+            "10": "data/audio/B02/B02_full.mp3"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V03",
+          "sessionDir": "V03",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V03/V03_full.mp3",
+            "2": "data/audio/V03/V03_full.mp3",
+            "4": "data/audio/V03/V03_full.mp3",
+            "6": "data/audio/V03/V03_full.mp3",
+            "8": "data/audio/V03/V03_full.mp3",
+            "10": "data/audio/V03/V03_full.mp3"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R04",
+          "sessionDir": "R04",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R04/R04_full.flac",
+            "2": "data/audio/R04/R04_full.flac",
+            "4": "data/audio/R04/R04_full.flac",
+            "6": "data/audio/R04/R04_full.flac",
+            "8": "data/audio/R04/R04_full.flac",
+            "10": "data/audio/R04/R04_full.flac"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B56",
+          "sessionDir": "B56",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B56/B56_slide01.flac",
+            "2": "data/audio/B56/B56_slide02.flac",
+            "4": "data/audio/B56/B56_slide04.flac",
+            "6": "data/audio/B56/B56_slide06.flac",
+            "8": "data/audio/B56/B56_slide08.flac",
+            "10": "data/audio/B56/B56_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R58",
+          "sessionDir": "R58",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R58/R58_slide01.flac",
+            "2": "data/audio/R58/R58_slide02.flac",
+            "4": "data/audio/R58/R58_slide04.flac",
+            "6": "data/audio/R58/R58_slide06.flac",
+            "8": "data/audio/R58/R58_slide08.flac",
+            "10": "data/audio/R58/R58_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B59",
+          "sessionDir": "B59",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B59/B59_slide01.flac",
+            "2": "data/audio/B59/B59_slide02.flac",
+            "4": "data/audio/B59/B59_slide04.flac",
+            "6": "data/audio/B59/B59_slide06.flac",
+            "8": "data/audio/B59/B59_slide08.flac",
+            "10": "data/audio/B59/B59_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V60",
+          "sessionDir": "V60",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V60/V60_slide01.flac",
+            "2": "data/audio/V60/V60_slide02.flac",
+            "4": "data/audio/V60/V60_slide04.flac",
+            "6": "data/audio/V60/V60_slide06.flac",
+            "8": "data/audio/V60/V60_slide08.flac",
+            "10": "data/audio/V60/V60_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R61",
+          "sessionDir": "R61",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R61/R61_slide01.flac",
+            "2": "data/audio/R61/R61_slide02.flac",
+            "4": "data/audio/R61/R61_slide04.flac",
+            "6": "data/audio/R61/R61_slide06.flac",
+            "8": "data/audio/R61/R61_slide08.flac",
+            "10": "data/audio/R61/R61_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B62",
+          "sessionDir": "B62",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B62/B62_slide01.flac",
+            "2": "data/audio/B62/B62_slide02.flac",
+            "4": "data/audio/B62/B62_slide04.flac",
+            "6": "data/audio/B62/B62_slide06.flac",
+            "8": "data/audio/B62/B62_slide08.flac",
+            "10": "data/audio/B62/B62_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V63",
+          "sessionDir": "V63",
+          "availableSlides": [
+            1,
+            2
+          ],
+          "audioFiles": {
+            "1": "data/audio/V63/V63_slide01.flac",
+            "2": "data/audio/V63/V63_slide02.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R64",
+          "sessionDir": "R64",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R64/R64_slide01.flac",
+            "2": "data/audio/R64/R64_slide02.flac",
+            "4": "data/audio/R64/R64_slide04.flac",
+            "6": "data/audio/R64/R64_slide06.flac",
+            "8": "data/audio/R64/R64_slide08.flac",
+            "10": "data/audio/R64/R64_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B65",
+          "sessionDir": "B65",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B65/B65_slide01.flac",
+            "2": "data/audio/B65/B65_slide02.flac",
+            "4": "data/audio/B65/B65_slide04.flac",
+            "6": "data/audio/B65/B65_slide06.flac",
+            "8": "data/audio/B65/B65_slide08.flac",
+            "10": "data/audio/B65/B65_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V66",
+          "sessionDir": "V66",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V66/V66_slide01.flac",
+            "2": "data/audio/V66/V66_slide02.flac",
+            "4": "data/audio/V66/V66_slide04.flac",
+            "6": "data/audio/V66/V66_slide06.flac",
+            "8": "data/audio/V66/V66_slide08.flac",
+            "10": "data/audio/V66/V66_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B68",
+          "sessionDir": "B68",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B68/B68_slide01.flac",
+            "2": "data/audio/B68/B68_slide02.flac",
+            "4": "data/audio/B68/B68_slide04.flac",
+            "6": "data/audio/B68/B68_slide06.flac",
+            "8": "data/audio/B68/B68_slide08.flac",
+            "10": "data/audio/B68/B68_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V69",
+          "sessionDir": "V69",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V69/V69_slide01.flac",
+            "2": "data/audio/V69/V69_slide02.flac",
+            "4": "data/audio/V69/V69_slide04.flac",
+            "6": "data/audio/V69/V69_slide06.flac",
+            "8": "data/audio/V69/V69_slide08.flac",
+            "10": "data/audio/V69/V69_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R70",
+          "sessionDir": "R70",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R70/R70_slide01.flac",
+            "2": "data/audio/R70/R70_slide02.flac",
+            "4": "data/audio/R70/R70_slide04.flac",
+            "6": "data/audio/R70/R70_slide06.flac",
+            "8": "data/audio/R70/R70_slide08.flac",
+            "10": "data/audio/R70/R70_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B71",
+          "sessionDir": "B71",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B71/B71_slide01.flac",
+            "2": "data/audio/B71/B71_slide02.flac",
+            "4": "data/audio/B71/B71_slide04.flac",
+            "6": "data/audio/B71/B71_slide06.flac",
+            "8": "data/audio/B71/B71_slide08.flac",
+            "10": "data/audio/B71/B71_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V72",
+          "sessionDir": "V72",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V72/V72_slide01.flac",
+            "2": "data/audio/V72/V72_slide02.flac",
+            "4": "data/audio/V72/V72_slide04.flac",
+            "6": "data/audio/V72/V72_slide06.flac",
+            "8": "data/audio/V72/V72_slide08.flac",
+            "10": "data/audio/V72/V72_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R73",
+          "sessionDir": "R73",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R73/R73_slide01.flac",
+            "2": "data/audio/R73/R73_slide02.flac",
+            "4": "data/audio/R73/R73_slide04.flac",
+            "6": "data/audio/R73/R73_slide06.flac",
+            "8": "data/audio/R73/R73_slide08.flac",
+            "10": "data/audio/R73/R73_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B74",
+          "sessionDir": "B74",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B74/B74_slide01.flac",
+            "2": "data/audio/B74/B74_slide02.flac",
+            "4": "data/audio/B74/B74_slide04.flac",
+            "6": "data/audio/B74/B74_slide06.flac",
+            "8": "data/audio/B74/B74_slide08.flac",
+            "10": "data/audio/B74/B74_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V75",
+          "sessionDir": "V75",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V75/V75_slide01.flac",
+            "2": "data/audio/V75/V75_slide02.flac",
+            "4": "data/audio/V75/V75_slide04.flac",
+            "6": "data/audio/V75/V75_slide06.flac",
+            "8": "data/audio/V75/V75_slide08.flac",
+            "10": "data/audio/V75/V75_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R76",
+          "sessionDir": "R76",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R76/R76_slide01.flac",
+            "2": "data/audio/R76/R76_slide02.flac",
+            "4": "data/audio/R76/R76_slide04.flac",
+            "6": "data/audio/R76/R76_slide06.flac",
+            "8": "data/audio/R76/R76_slide08.flac",
+            "10": "data/audio/R76/R76_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B77",
+          "sessionDir": "B77",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B77/B77_slide01.flac",
+            "2": "data/audio/B77/B77_slide02.flac",
+            "4": "data/audio/B77/B77_slide04.flac",
+            "6": "data/audio/B77/B77_slide06.flac",
+            "8": "data/audio/B77/B77_slide08.flac",
+            "10": "data/audio/B77/B77_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R79",
+          "sessionDir": "R79",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R79/R79_slide01.flac",
+            "2": "data/audio/R79/R79_slide02.flac",
+            "4": "data/audio/R79/R79_slide04.flac",
+            "6": "data/audio/R79/R79_slide06.flac",
+            "8": "data/audio/R79/R79_slide08.flac",
+            "10": "data/audio/R79/R79_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B80",
+          "sessionDir": "B80",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B80/B80_slide01.flac",
+            "2": "data/audio/B80/B80_slide02.flac",
+            "4": "data/audio/B80/B80_slide04.flac",
+            "6": "data/audio/B80/B80_slide06.flac",
+            "8": "data/audio/B80/B80_slide08.flac",
+            "10": "data/audio/B80/B80_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V81",
+          "sessionDir": "V81",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V81/V81_slide01.flac",
+            "2": "data/audio/V81/V81_slide02.flac",
+            "4": "data/audio/V81/V81_slide04.flac",
+            "6": "data/audio/V81/V81_slide06.flac",
+            "8": "data/audio/V81/V81_slide08.flac",
+            "10": "data/audio/V81/V81_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R82",
+          "sessionDir": "R82",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R82/R82_slide01.flac",
+            "2": "data/audio/R82/R82_slide02.flac",
+            "4": "data/audio/R82/R82_slide04.flac",
+            "6": "data/audio/R82/R82_slide06.flac",
+            "8": "data/audio/R82/R82_slide08.flac",
+            "10": "data/audio/R82/R82_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B83",
+          "sessionDir": "B83",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B83/B83_slide01.flac",
+            "2": "data/audio/B83/B83_slide02.flac",
+            "4": "data/audio/B83/B83_slide04.flac",
+            "6": "data/audio/B83/B83_slide06.flac",
+            "8": "data/audio/B83/B83_slide08.flac",
+            "10": "data/audio/B83/B83_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V84",
+          "sessionDir": "V84",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V84/V84_slide01.flac",
+            "2": "data/audio/V84/V84_slide02.flac",
+            "4": "data/audio/V84/V84_slide04.flac",
+            "6": "data/audio/V84/V84_slide06.flac",
+            "8": "data/audio/V84/V84_slide08.flac",
+            "10": "data/audio/V84/V84_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R85",
+          "sessionDir": "R85",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R85/R85_slide01.flac",
+            "2": "data/audio/R85/R85_slide02.flac",
+            "4": "data/audio/R85/R85_slide04.flac",
+            "6": "data/audio/R85/R85_slide06.flac",
+            "8": "data/audio/R85/R85_slide08.flac",
+            "10": "data/audio/R85/R85_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B86",
+          "sessionDir": "B86",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B86/B86_slide01.flac",
+            "2": "data/audio/B86/B86_slide02.flac",
+            "4": "data/audio/B86/B86_slide04.flac",
+            "6": "data/audio/B86/B86_slide06.flac",
+            "8": "data/audio/B86/B86_slide08.flac",
+            "10": "data/audio/B86/B86_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V87",
+          "sessionDir": "V87",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V87/V87_slide01.flac",
+            "2": "data/audio/V87/V87_slide02.flac",
+            "4": "data/audio/V87/V87_slide04.flac",
+            "6": "data/audio/V87/V87_slide06.flac",
+            "8": "data/audio/V87/V87_slide08.flac",
+            "10": "data/audio/V87/V87_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R88",
+          "sessionDir": "R88",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R88/R88_slide01.flac",
+            "2": "data/audio/R88/R88_slide02.flac",
+            "4": "data/audio/R88/R88_slide04.flac",
+            "6": "data/audio/R88/R88_slide06.flac",
+            "8": "data/audio/R88/R88_slide08.flac",
+            "10": "data/audio/R88/R88_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B89",
+          "sessionDir": "B89",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B89/B89_slide01.flac",
+            "2": "data/audio/B89/B89_slide02.flac",
+            "4": "data/audio/B89/B89_slide04.flac",
+            "6": "data/audio/B89/B89_slide06.flac",
+            "8": "data/audio/B89/B89_slide08.flac",
+            "10": "data/audio/B89/B89_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V90",
+          "sessionDir": "V90",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V90/V90_slide01.flac",
+            "2": "data/audio/V90/V90_slide02.flac",
+            "4": "data/audio/V90/V90_slide04.flac",
+            "6": "data/audio/V90/V90_slide06.flac",
+            "8": "data/audio/V90/V90_slide08.flac",
+            "10": "data/audio/V90/V90_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R91",
+          "sessionDir": "R91",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R91/R91_slide01.flac",
+            "2": "data/audio/R91/R91_slide02.flac",
+            "4": "data/audio/R91/R91_slide04.flac",
+            "6": "data/audio/R91/R91_slide06.flac",
+            "8": "data/audio/R91/R91_slide08.flac",
+            "10": "data/audio/R91/R91_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B92",
+          "sessionDir": "B92",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B92/B92_slide01.flac",
+            "2": "data/audio/B92/B92_slide02.flac",
+            "4": "data/audio/B92/B92_slide04.flac",
+            "6": "data/audio/B92/B92_slide06.flac",
+            "8": "data/audio/B92/B92_slide08.flac",
+            "10": "data/audio/B92/B92_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V93",
+          "sessionDir": "V93",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V93/V93_slide01.flac",
+            "2": "data/audio/V93/V93_slide02.flac",
+            "4": "data/audio/V93/V93_slide04.flac",
+            "6": "data/audio/V93/V93_slide06.flac",
+            "8": "data/audio/V93/V93_slide08.flac",
+            "10": "data/audio/V93/V93_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R94",
+          "sessionDir": "R94",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R94/R94_slide01.flac",
+            "2": "data/audio/R94/R94_slide02.flac",
+            "4": "data/audio/R94/R94_slide04.flac",
+            "6": "data/audio/R94/R94_slide06.flac",
+            "8": "data/audio/R94/R94_slide08.flac",
+            "10": "data/audio/R94/R94_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B95",
+          "sessionDir": "B95",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B95/B95_slide01.flac",
+            "2": "data/audio/B95/B95_slide02.flac",
+            "4": "data/audio/B95/B95_slide04.flac",
+            "6": "data/audio/B95/B95_slide06.flac",
+            "8": "data/audio/B95/B95_slide08.flac",
+            "10": "data/audio/B95/B95_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V96",
+          "sessionDir": "V96",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V96/V96_slide01.flac",
+            "2": "data/audio/V96/V96_slide02.flac",
+            "4": "data/audio/V96/V96_slide04.flac",
+            "6": "data/audio/V96/V96_slide06.flac",
+            "8": "data/audio/V96/V96_slide08.flac",
+            "10": "data/audio/V96/V96_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R97",
+          "sessionDir": "R97",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R97/R97_slide01.flac",
+            "2": "data/audio/R97/R97_slide02.flac",
+            "4": "data/audio/R97/R97_slide04.flac",
+            "6": "data/audio/R97/R97_slide06.flac",
+            "8": "data/audio/R97/R97_slide08.flac",
+            "10": "data/audio/R97/R97_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B98",
+          "sessionDir": "B98",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B98/B98_slide01.flac",
+            "2": "data/audio/B98/B98_slide02.flac",
+            "4": "data/audio/B98/B98_slide04.flac",
+            "6": "data/audio/B98/B98_slide06.flac",
+            "8": "data/audio/B98/B98_slide08.flac",
+            "10": "data/audio/B98/B98_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V99",
+          "sessionDir": "V99",
+          "availableSlides": [
+            1,
+            2
+          ],
+          "audioFiles": {
+            "1": "data/audio/V99/V99_slide01.flac",
+            "2": "data/audio/V99/V99_slide02.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R100",
+          "sessionDir": "R100",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R100/R100_slide01.flac",
+            "2": "data/audio/R100/R100_slide02.flac",
+            "4": "data/audio/R100/R100_slide04.flac",
+            "6": "data/audio/R100/R100_slide06.flac",
+            "8": "data/audio/R100/R100_slide08.flac",
+            "10": "data/audio/R100/R100_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B101",
+          "sessionDir": "B101",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B101/B101_slide01.flac",
+            "2": "data/audio/B101/B101_slide02.flac",
+            "4": "data/audio/B101/B101_slide04.flac",
+            "6": "data/audio/B101/B101_slide06.flac",
+            "8": "data/audio/B101/B101_slide08.flac",
+            "10": "data/audio/B101/B101_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V102",
+          "sessionDir": "V102",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V102/V102_slide01.flac",
+            "2": "data/audio/V102/V102_slide02.flac",
+            "4": "data/audio/V102/V102_slide04.flac",
+            "6": "data/audio/V102/V102_slide06.flac",
+            "8": "data/audio/V102/V102_slide08.flac",
+            "10": "data/audio/V102/V102_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R103",
+          "sessionDir": "R103",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R103/R103_slide01.flac",
+            "2": "data/audio/R103/R103_slide02.flac",
+            "4": "data/audio/R103/R103_slide04.flac",
+            "6": "data/audio/R103/R103_slide06.flac",
+            "8": "data/audio/R103/R103_slide08.flac",
+            "10": "data/audio/R103/R103_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B104",
+          "sessionDir": "B104",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B104/B104_slide01.flac",
+            "2": "data/audio/B104/B104_slide02.flac",
+            "4": "data/audio/B104/B104_slide04.flac",
+            "6": "data/audio/B104/B104_slide06.flac",
+            "8": "data/audio/B104/B104_slide08.flac",
+            "10": "data/audio/B104/B104_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V105",
+          "sessionDir": "V105",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V105/V105_slide01.flac",
+            "2": "data/audio/V105/V105_slide02.flac",
+            "4": "data/audio/V105/V105_slide04.flac",
+            "6": "data/audio/V105/V105_slide06.flac",
+            "8": "data/audio/V105/V105_slide08.flac",
+            "10": "data/audio/V105/V105_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R106",
+          "sessionDir": "R106",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R106/R106_slide01.flac",
+            "2": "data/audio/R106/R106_slide02.flac",
+            "4": "data/audio/R106/R106_slide04.flac",
+            "6": "data/audio/R106/R106_slide06.flac",
+            "8": "data/audio/R106/R106_slide08.flac",
+            "10": "data/audio/R106/R106_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B107",
+          "sessionDir": "B107",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B107/B107_slide01.flac",
+            "2": "data/audio/B107/B107_slide02.flac",
+            "4": "data/audio/B107/B107_slide04.flac",
+            "6": "data/audio/B107/B107_slide06.flac",
+            "8": "data/audio/B107/B107_slide08.flac",
+            "10": "data/audio/B107/B107_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V108",
+          "sessionDir": "V108",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V108/V108_slide01.flac",
+            "2": "data/audio/V108/V108_slide02.flac",
+            "4": "data/audio/V108/V108_slide04.flac",
+            "6": "data/audio/V108/V108_slide06.flac",
+            "8": "data/audio/V108/V108_slide08.flac",
+            "10": "data/audio/V108/V108_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R109",
+          "sessionDir": "R109",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R109/R109_slide01.flac",
+            "2": "data/audio/R109/R109_slide02.flac",
+            "4": "data/audio/R109/R109_slide04.flac",
+            "6": "data/audio/R109/R109_slide06.flac",
+            "8": "data/audio/R109/R109_slide08.flac",
+            "10": "data/audio/R109/R109_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B110",
+          "sessionDir": "B110",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B110/B110_slide01.flac",
+            "2": "data/audio/B110/B110_slide02.flac",
+            "4": "data/audio/B110/B110_slide04.flac",
+            "6": "data/audio/B110/B110_slide06.flac",
+            "8": "data/audio/B110/B110_slide08.flac",
+            "10": "data/audio/B110/B110_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V111",
+          "sessionDir": "V111",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V111/V111_slide01.flac",
+            "2": "data/audio/V111/V111_slide02.flac",
+            "4": "data/audio/V111/V111_slide04.flac",
+            "6": "data/audio/V111/V111_slide06.flac",
+            "8": "data/audio/V111/V111_slide08.flac",
+            "10": "data/audio/V111/V111_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R112",
+          "sessionDir": "R112",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R112/R112_slide01.flac",
+            "2": "data/audio/R112/R112_slide02.flac",
+            "4": "data/audio/R112/R112_slide04.flac",
+            "6": "data/audio/R112/R112_slide06.flac",
+            "8": "data/audio/R112/R112_slide08.flac",
+            "10": "data/audio/R112/R112_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V114",
+          "sessionDir": "V114",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V114/V114_slide01.flac",
+            "2": "data/audio/V114/V114_slide02.flac",
+            "4": "data/audio/V114/V114_slide04.flac",
+            "6": "data/audio/V114/V114_slide06.flac",
+            "8": "data/audio/V114/V114_slide08.flac",
+            "10": "data/audio/V114/V114_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R115",
+          "sessionDir": "R115",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R115/R115_slide01.flac",
+            "2": "data/audio/R115/R115_slide02.flac",
+            "4": "data/audio/R115/R115_slide04.flac",
+            "6": "data/audio/R115/R115_slide06.flac",
+            "8": "data/audio/R115/R115_slide08.flac",
+            "10": "data/audio/R115/R115_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B116",
+          "sessionDir": "B116",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B116/B116_slide01.flac",
+            "2": "data/audio/B116/B116_slide02.flac",
+            "4": "data/audio/B116/B116_slide04.flac",
+            "6": "data/audio/B116/B116_slide06.flac",
+            "8": "data/audio/B116/B116_slide08.flac",
+            "10": "data/audio/B116/B116_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V117",
+          "sessionDir": "V117",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V117/V117_slide01.flac",
+            "2": "data/audio/V117/V117_slide02.flac",
+            "4": "data/audio/V117/V117_slide04.flac",
+            "6": "data/audio/V117/V117_slide06.flac",
+            "8": "data/audio/V117/V117_slide08.flac",
+            "10": "data/audio/V117/V117_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R118",
+          "sessionDir": "R118",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R118/R118_slide01.flac",
+            "2": "data/audio/R118/R118_slide02.flac",
+            "4": "data/audio/R118/R118_slide04.flac",
+            "6": "data/audio/R118/R118_slide06.flac",
+            "8": "data/audio/R118/R118_slide08.flac",
+            "10": "data/audio/R118/R118_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V120",
+          "sessionDir": "V120",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V120/V120_slide01.flac",
+            "2": "data/audio/V120/V120_slide02.flac",
+            "4": "data/audio/V120/V120_slide04.flac",
+            "6": "data/audio/V120/V120_slide06.flac",
+            "8": "data/audio/V120/V120_slide08.flac",
+            "10": "data/audio/V120/V120_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "R121",
+          "sessionDir": "R121",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/R121/R121_slide01.flac",
+            "2": "data/audio/R121/R121_slide02.flac",
+            "4": "data/audio/R121/R121_slide04.flac",
+            "6": "data/audio/R121/R121_slide06.flac",
+            "8": "data/audio/R121/R121_slide08.flac",
+            "10": "data/audio/R121/R121_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "B122",
+          "sessionDir": "B122",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B122/B122_slide01.flac",
+            "2": "data/audio/B122/B122_slide02.flac",
+            "4": "data/audio/B122/B122_slide04.flac",
+            "6": "data/audio/B122/B122_slide06.flac",
+            "8": "data/audio/B122/B122_slide08.flac",
+            "10": "data/audio/B122/B122_slide10.flac"
+          },
+          "audioMode": "slides"
+        },
+        {
+          "id": "V123",
+          "sessionDir": "V123",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/V123/V123_slide01.flac",
+            "2": "data/audio/V123/V123_slide02.flac",
+            "4": "data/audio/V123/V123_slide04.flac",
+            "6": "data/audio/V123/V123_slide06.flac",
+            "8": "data/audio/V123/V123_slide08.flac",
+            "10": "data/audio/V123/V123_slide10.flac"
+          },
+          "audioMode": "slides"
+        }
+      ]
+    }
+  ]
+}

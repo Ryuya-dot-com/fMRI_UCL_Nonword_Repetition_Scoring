@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fMRI UCL — Nonword Repetition Scorer</title>
+  <link rel="stylesheet" href="css/style.css?v=20261012a">
+</head>
+<body>
+  <div id="setup-screen" class="screen">
+    <div class="setup-container">
+      <div class="eyebrow">fMRI UCL · NONWORD REPETITION</div>
+      <h1>非単語復唱の採点</h1>
+      <p class="subtitle">評定者IDと参加者を選んで、音声の採点を始めます。</p>
+
+      <div class="setup-section">
+        <label for="rater-id">1. 評定者ID</label>
+        <input type="text" id="rater-id" placeholder="例：rater_A" autocomplete="off">
+      </div>
+
+      <div class="setup-section">
+        <label>対象の研究</label>
+        <div id="dataset-selector" class="radio-group"></div>
+      </div>
+
+      <div class="setup-section">
+        <label>2. 採点する参加者 <span id="participant-count" class="badge"></span></label>
+        <div class="participant-filters">
+          <input type="search" id="participant-search" placeholder="参加者IDで検索（例：B56）" aria-label="参加者IDで検索">
+          <select id="recording-filter" aria-label="録音形式で絞り込む">
+            <option value="all">すべての録音</option>
+            <option value="slides">スライド別録音</option>
+            <option value="full">全体録音</option>
+            <option value="partial">一部の録音なし</option>
+          </select>
+        </div>
+        <div class="participant-controls">
+          <button id="select-all-btn" class="btn btn-sm">表示中を選択</button>
+          <button id="deselect-all-btn" class="btn btn-sm">選択を解除</button>
+        </div>
+        <div id="participant-selector" class="checkbox-grid"></div>
+        <p id="selection-count" class="helper" aria-live="polite"></p>
+      </div>
+
+      <div class="setup-section setup-note">
+        <strong>音声を聞いて、各非単語を0または1で採点</strong>
+        <div>完全一致は1、それ以外は0。全53項目、部分点はありません。</div>
+        <div>途中経過はこのブラウザに保存されます。同じ評定者IDで再開できます。</div>
+      </div>
+
+      <button id="start-btn" class="btn btn-primary btn-lg" disabled>選択した参加者の採点を始める</button>
+
+      <div id="resume-section" class="resume-section" style="display:none">
+        <h3>保存した採点があります</h3>
+        <p id="resume-info"></p>
+        <button id="resume-btn" class="btn btn-primary">続きから再開</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="scoring-screen" class="screen" style="display:none">
+    <header class="scoring-header">
+      <div class="header-left">
+        <button id="back-to-setup" class="btn btn-sm">参加者選択へ</button>
+        <span id="dataset-label" class="dataset-badge"></span>
+      </div>
+      <div class="header-center">
+        <button id="prev-item" class="btn btn-nav">← 前の項目</button>
+        <span id="item-indicator">1 / 53 項目</span>
+        <button id="next-item" class="btn btn-nav">次の項目 →</button>
+      </div>
+      <div class="header-right">
+        <button id="prev-participant" class="btn btn-nav btn-sm">前の参加者</button>
+        <span id="participant-indicator">参加者</span>
+        <button id="next-participant" class="btn btn-nav btn-sm">次の参加者</button>
+      </div>
+    </header>
+    <div class="jump-controls">
+      <label for="participant-jump">参加者 <select id="participant-jump"></select></label>
+      <label for="item-jump">項目へ移動 <select id="item-jump"></select></label>
+      <span class="shortcut-help"><kbd>Space</kbd> 再生・停止　<kbd>0</kbd> <kbd>1</kbd> 採点　<kbd>←</kbd> <kbd>→</kbd> 項目移動</span>
+    </div>
+
+    <main class="scoring-main">
+      <div class="trial-info">
+        <div class="trial-info-row">
+          <div id="item-word" class="trial-word"></div>
+          <div id="task-badge" class="task-badge"></div>
+        </div>
+        <div id="trial-details" class="trial-details"></div>
+      </div>
+
+      <div class="waveform-section">
+        <div class="playback-controls">
+          <button id="play-btn" class="btn btn-play">再生</button>
+          <button id="stop-btn" class="btn btn-sm">先頭へ</button>
+          <button id="rewind-btn" class="btn btn-sm" title="3秒戻す">−3秒</button>
+          <button id="forward-btn" class="btn btn-sm" title="3秒進める">＋3秒</button>
+          <div class="zoom-control">
+            <button id="zoom-out" class="btn btn-sm" aria-label="波形を縮小">-</button>
+            <span id="zoom-level">1.0x</span>
+            <button id="zoom-in" class="btn btn-sm" aria-label="波形を拡大">+</button>
+            <button id="zoom-reset" class="btn btn-sm">全体表示</button>
+          </div>
+          <div class="speed-control">
+            <label for="playback-speed">再生速度</label>
+            <select id="playback-speed">
+              <option value="0.5">0.5x</option>
+              <option value="0.75">0.75x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+            </select>
+          </div>
+        </div>
+        <div id="waveform-container" class="waveform-container"></div>
+        <div id="waveform-timeline" class="waveform-timeline"></div>
+        <div id="waveform-minimap" class="waveform-minimap"></div>
+        <div class="waveform-info">
+          <span id="waveform-time">0.000s / 0.000s</span>
+          <span id="audio-file-label">Audio: --</span>
+        </div>
+      </div>
+
+      <div class="accuracy-section">
+        <h3>この非単語の採点</h3>
+        <div class="score-buttons">
+          <button class="btn btn-score" data-score="0" title="0キーで採点">0 <span>不一致</span></button>
+          <button class="btn btn-score" data-score="1" title="1キーで採点">1 <span>完全一致</span></button>
+        </div>
+        <button id="clear-score" class="btn btn-sm clear-score" disabled>この項目の採点を取り消す</button>
+        <div id="score-hint" class="score-hint">完全一致のみ 1、それ以外は 0</div>
+      </div>
+
+      <div class="notes-section">
+        <label for="item-notes">備考（任意・Nキーで入力）</label>
+        <textarea id="item-notes" rows="2" placeholder="例: 言い直しあり、語順入れ替え、雑音など"></textarea>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-bar-container">
+          <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+        </div>
+        <span id="progress-text">0 / 0 項目 採点済み</span>
+        <button id="jump-unscored" class="btn btn-sm">次の未採点項目へ</button>
+      </div>
+    </main>
+
+    <footer class="scoring-footer">
+      <button id="export-participant" class="btn">この参加者のExcelを保存</button>
+      <button id="export-all-csv" class="btn">選択した参加者のCSVを保存</button>
+      <span id="save-status" class="save-status" aria-live="polite">このブラウザに保存済み</span>
+    </footer>
+  </div>
+
+  <script src="vendor/wavesurfer.min.js"></script>
+  <script src="vendor/minimap.min.js"></script>
+  <script src="vendor/timeline.min.js"></script>
+  <script src="vendor/xlsx.full.min.js"></script>
+
+  <script src="js/data-loader.js?v=20261012a"></script>
+  <script src="js/state.js?v=20261012a"></script>
+  <script src="js/waveform.js?v=20261012a"></script>
+  <script src="js/scoring-ui.js?v=20261012a"></script>
+  <script src="js/navigation.js?v=20261012a"></script>
+  <script src="js/export.js?v=20261012a"></script>
+  <script src="js/app.js?v=20261012a"></script>
+</body>
+</html>
