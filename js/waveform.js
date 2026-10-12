@@ -68,9 +68,7 @@ const WaveformViewer = (() => {
         timelinePlugin = wavesurfer.registerPlugin(
           WaveSurfer.Timeline.create({
             container: '#waveform-timeline',
-            style: { color: '#62676d', fontSize: '11px' },
-            timeInterval: 0.5,
-            primaryLabelInterval: 1
+            style: { color: '#62676d', fontSize: '11px' }
           })
         );
       } catch (e) {
