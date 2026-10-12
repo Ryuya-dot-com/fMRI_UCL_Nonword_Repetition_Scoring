@@ -37,9 +37,9 @@ const WaveformViewer = (() => {
     try {
       wavesurfer = WaveSurfer.create({
         container: containerEl,
-        waveColor: '#38bdf8',
-        progressColor: '#0ea5e9',
-        cursorColor: '#f8fafc',
+        waveColor: '#64748b',
+        progressColor: '#245884',
+        cursorColor: '#222222',
         height: 150,
         // Keep absolute amplitude (no normalization) so the main view
         // matches the minimap impression and avoids visual exaggeration.
@@ -54,9 +54,9 @@ const WaveformViewer = (() => {
           WaveSurfer.Minimap.create({
             container: '#waveform-minimap',
             height: 30,
-            waveColor: '#475569',
-            progressColor: '#0284c7',
-            cursorColor: '#f8fafc'
+            waveColor: '#a1a8af',
+            progressColor: '#245884',
+            cursorColor: '#222222'
           })
         );
       } catch (e) {
@@ -68,7 +68,7 @@ const WaveformViewer = (() => {
         timelinePlugin = wavesurfer.registerPlugin(
           WaveSurfer.Timeline.create({
             container: '#waveform-timeline',
-            style: { color: '#9ca3af', fontSize: '11px' },
+            style: { color: '#62676d', fontSize: '11px' },
             timeInterval: 0.5,
             primaryLabelInterval: 1
           })
