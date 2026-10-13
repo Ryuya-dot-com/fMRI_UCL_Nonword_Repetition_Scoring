@@ -101,12 +101,14 @@ const App = (() => {
 
     ds.participants.forEach(p => {
       const label = document.createElement('label');
-      const audioTag = p.audioMode === 'full' ? ' [全体録音]' :
-        p.availableSlides.length < DataLoader.getManifest().scoredSlides.length ? ' [一部の録音なし]' : '';
+      const missingAudio = p.availableSlides.length < DataLoader.getManifest().scoredSlides.length;
+      const tags = [p.audioMode === 'full' ? '全体録音' : '', missingAudio ? '一部の録音なし' : ''].filter(Boolean);
+      const audioTag = tags.length ? ` [${tags.join('・')}]` : '';
       label.innerHTML = `<input type="checkbox" value="${p.key}" checked> ${p.id}${audioTag}`;
       label.dataset.id = p.id;
       label.dataset.mode = p.audioMode === 'full' ? 'full' :
-        p.availableSlides.length < DataLoader.getManifest().scoredSlides.length ? 'partial' : 'slides';
+        missingAudio ? 'partial' : 'slides';
+      label.dataset.missing = String(missingAudio);
       container.appendChild(label);
     });
 
@@ -118,7 +120,8 @@ const App = (() => {
     const query = document.getElementById('participant-search').value.trim().toLowerCase();
     const mode = document.getElementById('recording-filter').value;
     document.querySelectorAll('#participant-selector label').forEach(label => {
-      label.hidden = !label.dataset.id.toLowerCase().includes(query) || (mode !== 'all' && mode !== label.dataset.mode);
+      const matchesMode = mode === 'all' || (mode === 'partial' ? label.dataset.missing === 'true' : mode === label.dataset.mode);
+      label.hidden = !label.dataset.id.toLowerCase().includes(query) || !matchesMode;
     });
     updateStartButton();
   }

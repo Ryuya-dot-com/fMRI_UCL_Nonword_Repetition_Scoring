@@ -15,17 +15,23 @@ The original 53-item template and binary scoring rules are unchanged.
 Scores and notes are saved in the current browser. Enter the same Rater ID and
 use 続きから再開 to continue in that browser.
 
-R01, B02, V03 and R04 use full-session recordings. Select the relevant position
-in the waveform; navigating between items retains the playback position.
+R01, B02, V03, R04 and the 50 added Zoom recordings use continuous audio files.
+Select the relevant position in the waveform; navigating between recorded items
+retains the playback position. Of the Zoom recordings, B08 includes the three
+practice items; the other 49 begin after practice. Missing practice items are
+disabled and remain blank in the original 53-row scoring export.
 V63 and V99 have recordings for slides 1 and 2 only. Items without an audio
 file remain unscored, with blank accuracy in exports.
 
 ## Data
 
 `data/participants.json` contains the participant/audio mapping and scoring
-template. `data/audio/` contains 374 audio files for 67 participants.
-PCM recordings are stored as lossless FLAC; existing MP3 audio is not recompressed.
-Decoded PCM hashes were verified to match the source recordings for every file.
+template. `data/audio/` contains 424 audio files for 117 participants.
+PCM recordings are stored as lossless FLAC; existing MP3 and Zoom AAC audio
+are not recompressed. Zoom files contain audio only, without video or subtitles.
+Decoded PCM hashes match the source recordings for the 423 untrimmed files.
+B08's Zoom audio retains the task interval (03:29–09:54 in the original);
+its AAC packets match the corresponding source interval without re-encoding.
 File preparation does not constitute a listening review or an assessment of
 recording quality or response correctness.
 

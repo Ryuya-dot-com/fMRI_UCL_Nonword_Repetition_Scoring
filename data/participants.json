@@ -595,6 +595,843 @@
           "audioMode": "full"
         },
         {
+          "id": "B05",
+          "sessionDir": "B05",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B05/B05_zoom.m4a",
+            "6": "data/audio/B05/B05_zoom.m4a",
+            "8": "data/audio/B05/B05_zoom.m4a",
+            "10": "data/audio/B05/B05_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V06",
+          "sessionDir": "V06",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V06/V06_zoom.m4a",
+            "6": "data/audio/V06/V06_zoom.m4a",
+            "8": "data/audio/V06/V06_zoom.m4a",
+            "10": "data/audio/V06/V06_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R07",
+          "sessionDir": "R07",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R07/R07_zoom.m4a",
+            "6": "data/audio/R07/R07_zoom.m4a",
+            "8": "data/audio/R07/R07_zoom.m4a",
+            "10": "data/audio/R07/R07_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B08",
+          "sessionDir": "B08",
+          "availableSlides": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "1": "data/audio/B08/B08_zoom.m4a",
+            "2": "data/audio/B08/B08_zoom.m4a",
+            "4": "data/audio/B08/B08_zoom.m4a",
+            "6": "data/audio/B08/B08_zoom.m4a",
+            "8": "data/audio/B08/B08_zoom.m4a",
+            "10": "data/audio/B08/B08_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V09",
+          "sessionDir": "V09",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V09/V09_zoom.m4a",
+            "6": "data/audio/V09/V09_zoom.m4a",
+            "8": "data/audio/V09/V09_zoom.m4a",
+            "10": "data/audio/V09/V09_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R10",
+          "sessionDir": "R10",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R10/R10_zoom.m4a",
+            "6": "data/audio/R10/R10_zoom.m4a",
+            "8": "data/audio/R10/R10_zoom.m4a",
+            "10": "data/audio/R10/R10_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B11",
+          "sessionDir": "B11",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B11/B11_zoom.m4a",
+            "6": "data/audio/B11/B11_zoom.m4a",
+            "8": "data/audio/B11/B11_zoom.m4a",
+            "10": "data/audio/B11/B11_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V12",
+          "sessionDir": "V12",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V12/V12_zoom.m4a",
+            "6": "data/audio/V12/V12_zoom.m4a",
+            "8": "data/audio/V12/V12_zoom.m4a",
+            "10": "data/audio/V12/V12_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R13",
+          "sessionDir": "R13",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R13/R13_zoom.m4a",
+            "6": "data/audio/R13/R13_zoom.m4a",
+            "8": "data/audio/R13/R13_zoom.m4a",
+            "10": "data/audio/R13/R13_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B14",
+          "sessionDir": "B14",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B14/B14_zoom.m4a",
+            "6": "data/audio/B14/B14_zoom.m4a",
+            "8": "data/audio/B14/B14_zoom.m4a",
+            "10": "data/audio/B14/B14_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V15",
+          "sessionDir": "V15",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V15/V15_zoom.m4a",
+            "6": "data/audio/V15/V15_zoom.m4a",
+            "8": "data/audio/V15/V15_zoom.m4a",
+            "10": "data/audio/V15/V15_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R16",
+          "sessionDir": "R16",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R16/R16_zoom.m4a",
+            "6": "data/audio/R16/R16_zoom.m4a",
+            "8": "data/audio/R16/R16_zoom.m4a",
+            "10": "data/audio/R16/R16_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B17",
+          "sessionDir": "B17",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B17/B17_zoom.m4a",
+            "6": "data/audio/B17/B17_zoom.m4a",
+            "8": "data/audio/B17/B17_zoom.m4a",
+            "10": "data/audio/B17/B17_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V18",
+          "sessionDir": "V18",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V18/V18_zoom.m4a",
+            "6": "data/audio/V18/V18_zoom.m4a",
+            "8": "data/audio/V18/V18_zoom.m4a",
+            "10": "data/audio/V18/V18_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R19",
+          "sessionDir": "R19",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R19/R19_zoom.m4a",
+            "6": "data/audio/R19/R19_zoom.m4a",
+            "8": "data/audio/R19/R19_zoom.m4a",
+            "10": "data/audio/R19/R19_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B20",
+          "sessionDir": "B20",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B20/B20_zoom.m4a",
+            "6": "data/audio/B20/B20_zoom.m4a",
+            "8": "data/audio/B20/B20_zoom.m4a",
+            "10": "data/audio/B20/B20_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V21",
+          "sessionDir": "V21",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V21/V21_zoom.m4a",
+            "6": "data/audio/V21/V21_zoom.m4a",
+            "8": "data/audio/V21/V21_zoom.m4a",
+            "10": "data/audio/V21/V21_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R22",
+          "sessionDir": "R22",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R22/R22_zoom.m4a",
+            "6": "data/audio/R22/R22_zoom.m4a",
+            "8": "data/audio/R22/R22_zoom.m4a",
+            "10": "data/audio/R22/R22_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B23",
+          "sessionDir": "B23",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B23/B23_zoom.m4a",
+            "6": "data/audio/B23/B23_zoom.m4a",
+            "8": "data/audio/B23/B23_zoom.m4a",
+            "10": "data/audio/B23/B23_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V24",
+          "sessionDir": "V24",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V24/V24_zoom.m4a",
+            "6": "data/audio/V24/V24_zoom.m4a",
+            "8": "data/audio/V24/V24_zoom.m4a",
+            "10": "data/audio/V24/V24_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R25",
+          "sessionDir": "R25",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R25/R25_zoom.m4a",
+            "6": "data/audio/R25/R25_zoom.m4a",
+            "8": "data/audio/R25/R25_zoom.m4a",
+            "10": "data/audio/R25/R25_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B26",
+          "sessionDir": "B26",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B26/B26_zoom.m4a",
+            "6": "data/audio/B26/B26_zoom.m4a",
+            "8": "data/audio/B26/B26_zoom.m4a",
+            "10": "data/audio/B26/B26_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R28",
+          "sessionDir": "R28",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R28/R28_zoom.m4a",
+            "6": "data/audio/R28/R28_zoom.m4a",
+            "8": "data/audio/R28/R28_zoom.m4a",
+            "10": "data/audio/R28/R28_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B29",
+          "sessionDir": "B29",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B29/B29_zoom.m4a",
+            "6": "data/audio/B29/B29_zoom.m4a",
+            "8": "data/audio/B29/B29_zoom.m4a",
+            "10": "data/audio/B29/B29_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V30",
+          "sessionDir": "V30",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V30/V30_zoom.m4a",
+            "6": "data/audio/V30/V30_zoom.m4a",
+            "8": "data/audio/V30/V30_zoom.m4a",
+            "10": "data/audio/V30/V30_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R31",
+          "sessionDir": "R31",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R31/R31_zoom.m4a",
+            "6": "data/audio/R31/R31_zoom.m4a",
+            "8": "data/audio/R31/R31_zoom.m4a",
+            "10": "data/audio/R31/R31_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B32",
+          "sessionDir": "B32",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B32/B32_zoom.m4a",
+            "6": "data/audio/B32/B32_zoom.m4a",
+            "8": "data/audio/B32/B32_zoom.m4a",
+            "10": "data/audio/B32/B32_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V33",
+          "sessionDir": "V33",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V33/V33_zoom.m4a",
+            "6": "data/audio/V33/V33_zoom.m4a",
+            "8": "data/audio/V33/V33_zoom.m4a",
+            "10": "data/audio/V33/V33_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R34",
+          "sessionDir": "R34",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R34/R34_zoom.m4a",
+            "6": "data/audio/R34/R34_zoom.m4a",
+            "8": "data/audio/R34/R34_zoom.m4a",
+            "10": "data/audio/R34/R34_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B35",
+          "sessionDir": "B35",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B35/B35_zoom.m4a",
+            "6": "data/audio/B35/B35_zoom.m4a",
+            "8": "data/audio/B35/B35_zoom.m4a",
+            "10": "data/audio/B35/B35_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V36",
+          "sessionDir": "V36",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V36/V36_zoom.m4a",
+            "6": "data/audio/V36/V36_zoom.m4a",
+            "8": "data/audio/V36/V36_zoom.m4a",
+            "10": "data/audio/V36/V36_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B38",
+          "sessionDir": "B38",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B38/B38_zoom.m4a",
+            "6": "data/audio/B38/B38_zoom.m4a",
+            "8": "data/audio/B38/B38_zoom.m4a",
+            "10": "data/audio/B38/B38_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V39",
+          "sessionDir": "V39",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V39/V39_zoom.m4a",
+            "6": "data/audio/V39/V39_zoom.m4a",
+            "8": "data/audio/V39/V39_zoom.m4a",
+            "10": "data/audio/V39/V39_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R40",
+          "sessionDir": "R40",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R40/R40_zoom.m4a",
+            "6": "data/audio/R40/R40_zoom.m4a",
+            "8": "data/audio/R40/R40_zoom.m4a",
+            "10": "data/audio/R40/R40_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B41",
+          "sessionDir": "B41",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B41/B41_zoom.m4a",
+            "6": "data/audio/B41/B41_zoom.m4a",
+            "8": "data/audio/B41/B41_zoom.m4a",
+            "10": "data/audio/B41/B41_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V42",
+          "sessionDir": "V42",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V42/V42_zoom.m4a",
+            "6": "data/audio/V42/V42_zoom.m4a",
+            "8": "data/audio/V42/V42_zoom.m4a",
+            "10": "data/audio/V42/V42_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R43",
+          "sessionDir": "R43",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R43/R43_zoom.m4a",
+            "6": "data/audio/R43/R43_zoom.m4a",
+            "8": "data/audio/R43/R43_zoom.m4a",
+            "10": "data/audio/R43/R43_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B44",
+          "sessionDir": "B44",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B44/B44_zoom.m4a",
+            "6": "data/audio/B44/B44_zoom.m4a",
+            "8": "data/audio/B44/B44_zoom.m4a",
+            "10": "data/audio/B44/B44_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V45",
+          "sessionDir": "V45",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V45/V45_zoom.m4a",
+            "6": "data/audio/V45/V45_zoom.m4a",
+            "8": "data/audio/V45/V45_zoom.m4a",
+            "10": "data/audio/V45/V45_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R46",
+          "sessionDir": "R46",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R46/R46_zoom.m4a",
+            "6": "data/audio/R46/R46_zoom.m4a",
+            "8": "data/audio/R46/R46_zoom.m4a",
+            "10": "data/audio/R46/R46_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B47",
+          "sessionDir": "B47",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B47/B47_zoom.m4a",
+            "6": "data/audio/B47/B47_zoom.m4a",
+            "8": "data/audio/B47/B47_zoom.m4a",
+            "10": "data/audio/B47/B47_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V48",
+          "sessionDir": "V48",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V48/V48_zoom.m4a",
+            "6": "data/audio/V48/V48_zoom.m4a",
+            "8": "data/audio/V48/V48_zoom.m4a",
+            "10": "data/audio/V48/V48_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R49",
+          "sessionDir": "R49",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R49/R49_zoom.m4a",
+            "6": "data/audio/R49/R49_zoom.m4a",
+            "8": "data/audio/R49/R49_zoom.m4a",
+            "10": "data/audio/R49/R49_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B50",
+          "sessionDir": "B50",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B50/B50_zoom.m4a",
+            "6": "data/audio/B50/B50_zoom.m4a",
+            "8": "data/audio/B50/B50_zoom.m4a",
+            "10": "data/audio/B50/B50_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V51",
+          "sessionDir": "V51",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V51/V51_zoom.m4a",
+            "6": "data/audio/V51/V51_zoom.m4a",
+            "8": "data/audio/V51/V51_zoom.m4a",
+            "10": "data/audio/V51/V51_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R52",
+          "sessionDir": "R52",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R52/R52_zoom.m4a",
+            "6": "data/audio/R52/R52_zoom.m4a",
+            "8": "data/audio/R52/R52_zoom.m4a",
+            "10": "data/audio/R52/R52_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "B53",
+          "sessionDir": "B53",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/B53/B53_zoom.m4a",
+            "6": "data/audio/B53/B53_zoom.m4a",
+            "8": "data/audio/B53/B53_zoom.m4a",
+            "10": "data/audio/B53/B53_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "V54",
+          "sessionDir": "V54",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V54/V54_zoom.m4a",
+            "6": "data/audio/V54/V54_zoom.m4a",
+            "8": "data/audio/V54/V54_zoom.m4a",
+            "10": "data/audio/V54/V54_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
+          "id": "R55",
+          "sessionDir": "R55",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/R55/R55_zoom.m4a",
+            "6": "data/audio/R55/R55_zoom.m4a",
+            "8": "data/audio/R55/R55_zoom.m4a",
+            "10": "data/audio/R55/R55_zoom.m4a"
+          },
+          "audioMode": "full"
+        },
+        {
           "id": "B56",
           "sessionDir": "B56",
           "availableSlides": [
@@ -1005,6 +1842,23 @@
             "10": "data/audio/B77/B77_slide10.flac"
           },
           "audioMode": "slides"
+        },
+        {
+          "id": "V78",
+          "sessionDir": "V78",
+          "availableSlides": [
+            4,
+            6,
+            8,
+            10
+          ],
+          "audioFiles": {
+            "4": "data/audio/V78/V78_zoom.m4a",
+            "6": "data/audio/V78/V78_zoom.m4a",
+            "8": "data/audio/V78/V78_zoom.m4a",
+            "10": "data/audio/V78/V78_zoom.m4a"
+          },
+          "audioMode": "full"
         },
         {
           "id": "R79",
